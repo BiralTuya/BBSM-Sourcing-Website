@@ -1,0 +1,45 @@
+<?php
+$field_name = $_POST['cf_name'];
+$field_email = $_POST['cf_email'];
+$field_message = $_POST['cf_message'];
+
+$mail_to = 'arifulislamaiub2014@gmail.com';
+$mail_to2 = 'sanzila.tuya@gmail.com';
+$subject = 'Message from a site visitor '.$field_name;
+
+$body_message = 'From: '.$field_name."\n";
+$body_message .= 'E-mail: '.$field_email."\n";
+$body_message .= 'Message: '.$field_message;
+
+$headers = 'From: '.$field_email."\r\n";
+$headers .= 'Reply-To: '.$field_email."\r\n";
+if (empty($field_name) || empty($field_message))
+ {
+  ?>
+    <script language="javascript" type="text/javascript">
+        alert('All fields must be correctly compiled');
+        window.location = 'index.html';
+    </script>
+<?php
+}
+ else {
+
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
+$mail_status2 = mail($mail_to, $subject, $body_message, $headers);
+if ($mail_status || $mail_status2) { ?>
+	<script language="javascript" type="text/javascript">
+		alert('Thank you for the message. We will contact you shortly.');
+		window.location = 'index.html';
+	</script>
+<?php
+}
+else { ?>
+	<script language="javascript" type="text/javascript">
+		alert('Message failed. Please, send an email to bbsmsourcing@gmail.com');
+		window.location = 'index.html';
+	</script>
+
+<?php
+}
+}
+?>

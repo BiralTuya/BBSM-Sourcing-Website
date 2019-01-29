@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {background-image: url("bg.jpg");text-align:center;}
+{box-sizing:border-box}
+
+body {font-family: Verdana,sans-serif;}
+
+.mySlides {display:none}
+
+.logo{
+align:left;
+width:20.8%;
+height:0%;
+margin: 0px 0px 0px 286px;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+		
+/* Slideshow container */
+.slideshow-container {
+  max-width: 4000px 4000px;
+  position: relative;
+  margin: auto;
+  padding:0px 10px 10px 10px;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+p{
+font-size: 13px;
+color: white;
+text-align:justify;
+}
+b{
+font-family: Helvetica, Arial, sans-serif;
+padding: 15px 18px 8px 18px;
+    font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: middle;
+}
+b1{
+font-family: Helvetica, Arial, sans-serif;
+padding: 15px 18px 8px 18px;
+    font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: middle;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+ 
+}
+
+.active {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .text {font-size: 11px}
+}
+
+/*Dropdown and nevigator Header and copyright footer*/
+.ulcat
+{
+ list-style-type: none;
+    margin: 0px 263px 0px 273px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: right;
+	border-right: 2px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	font-size:12px;
+	font-weight: bold;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #9a9a92;
+}
+.active {
+   background-image: url("bg.jpg");
+}
+.menu1 {
+   width: 15%;
+    float: right;
+    padding: 0px 80px 0px 0px;
+	margin-bottom:80px;
+}
+.shell {
+    width: 20%;
+    float: left;
+    padding: 15px 0px 0px 100px;
+	text-align: left;
+	color: white;
+	 
+}
+.Shell li {
+   padding: 18px 18px 18px 18px;
+    margin-bottom: 17px;
+	text-align: left;
+	text-size: 10px;
+	}
+.post {
+    width: 40%;
+    float: left;
+    padding: 15px 10px 50px 15px;
+	text-align: left;
+	text-size: 1px;
+	
+}
+.post1 {
+    width: 50%;
+    float: left;
+    padding: 15px 100px 50px 70px;
+	text-align: left;
+	text-size: 1px;
+}
+
+.text{text-size 5px;}
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+	   font-family: Times New Roman;
+	   color: red;
+	   font-size: 13px;
+} 
+ 
+div {
+    border-radius: 1px;
+   background-image: url("bg.jpg");
+    padding: 1px;
+}
+div.selectCategoty {
+    margin: 50px;
+    border: 10px solid #ccc;
+    float: left;
+    width: 320px;
+	color: white;
+}
+
+div.selectCategoty:hover {
+    border: 10px solid #777;
+}
+
+div.selectCategoty img {
+    width: 100%;
+    height: auto;
+}
+body {background:#ECF0F1;text-align:center;background-image: url("bg.jpg");}
+body {font-family: Verdana,sans-serif;}
+
+
+</style>
+	</head>
+
+<body>
+<div class="logo"><a href="index.html"><img src="logo.png" ></a></div>
+<form id="Home" action="" method="post">
+<ul class="ulcat">
+    <li><a href="contact.html">Contact</a></li>
+	<li><a href="inovative.html">Inovative Products</a></li>
+	<li><a href="kids.html">Kids</a></li>
+	<li><a href="womens.html">Women</a></li>
+	<li><a href="mens.html">Men</a></li>
+	<li><a href="service.html">Service</a></li>
+	<li><a href="mission.html">Mission & Vision</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="index.html">Home</a></li>
+ </ul>
+<div>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <a href="mens.html"><img src="men.jpg" style="width:60%"></a>
+  <div class="text">Fine Clothings</div>
+</div>
+
+<div class="mySlides fade">
+  <a href="womens.html"><img src="women.jpg" style="width:60%"></a>
+  <div class="text">Best Ready-made garments</div>
+</div>
+
+<div class="mySlides fade">
+  <a href="kids.html"><img src="kids.jpg" style="width:60%"></a>
+  <div class="text">Lovely for Kids</div>
+</div>
+
+<div class="mySlides fade">
+  <a href="mens.html"><img src="men2.jpg" style="width:60%"></a>
+  <div class="text">Stylish Outwear</div>
+</div>
+
+<div class="mySlides fade">
+  <a href="womens.html"><img src="women2.jpg" style="width:60%"></a>
+  <div class="text">Casual Outfit</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+</div>
+</div>
+<br><br><br><br>
+
+		<div class="shell">
+		<b>Categoris:</b>
+		
+			
+			  
+				
+			<div class="widget-entry">
+				<ul>
+				<a href="mens.html" title="Mens">
+				  <img src="men3.jpg" style="width:235px;height:150px;border:0;">
+				</a>
+				</ul>
+				<br>
+			<ul>
+				<a href="womens.html" title="Womens">
+				  <img src="women3.jpg" style="width:235px;height:150px;border:0;">
+				</a>
+				</ul>	
+				<br>
+			<ul>
+				<a href="kids.html" title="Kids">
+				  <img src="kids2.jpg" style="width:235px;height:150px;border:0;">
+				</a>
+				</div>
+				<br>
+				</div>
+				</div>
+		<div class="post">
+		<h2>Our Services</h2>
+<p>The ambition of BBSM Sourcing is to build up as one of the prime RMG exporters of the globe We are the country's supreme business entity and producing knit wears is our main business strength. Our mission is to contribute to the greater interest of the people broadly speaking to serve the nation. To satisfy our stated business goal we ensure Laws and Workplace regulations. It is our motto to prioritize the academic qualification and technical expertise to bring the organizational success irrespective of cast, creed colour & race. Our corporate vision is to create an outstanding value for customers and other stakeholders. We are committed to develop a great new product and service to create a great company as we strive for excellence.<br>
+In the process we are trying to implement all the suggested Code of Conducts, practices or ethics of internationally reputed and professionally certified organization with a view to having corporate governance. Having continuing professional development, high tech equipments, high profile industrial training & skill development, uncompromising quality assurance, and sustainable consistency of determined policies. By fulfilling all the required benchmarks we have been able cope with buyers requirements along with achieving prestigious international certificates i.e. Our 100% export oriented buying & garment division has achieved the distinction of having set pace and standard with excellence in the RMG sector in Bangladesh. We are the pioneers of the sophisticated machineries and later on considered as a benchmark in the relevant field. Our company with getting assistance of all its sister concerns is capable of producing each and every kind of Knit, Woven, Bottom, & Sweater garments. We are mindful of our responsibility to return the value we create the business through our local community at large. Over many years we have launched various projects in order to support social, economical and environmental sustainability. We adopt a holistic approach for sustainable long term growth for the benefit of people in the areas of our operational & technical along with professional activities at home and abroad.</p>
+
+		<h2>Our Objectives</h2>
+<p>Our Strategic objectives support the achievement of the BBSM Sourcing and are well embedded throughout the organization. By working collaboratively to improve health & social welfare to tackle inequalities we would like to achieve excellence in the services we deliver through the efforts of a skilled, committed and engaged workforce and to optimize the resources available to us to achieve shared goals.</p>
+<p>The above are the steps we used to follow for each and every order. We appreciate your suggestion if you have anything more.</p>
+<br><br>
+<h2>Our Goal</h2>
+<p>Our goal is to encourage community flexibility to respond to a changing environment through government liaison and human resource development. Through increasing availability of comprehensive resources to facilitate community interest-based growth through partnership development. We also have our goal to demonstrate social & corporate accountability to all of our stakeholders in order to operate business activities smoothly.</p>
+</div>
+<div class="menu1">
+<h2>Company</h2>
+								
+<p align= "justify"><marquee>Imperial Collection</marquee>
+<marquee width="50%">Garments Buying & Inspection Agent</marquee>
+<marquee direction="right">Imperial Collection</marquee>
+<marquee direction="up">Garments Buying & Inspection Agent</marquee>
+</p>
+</div>
+<br><br><br>
+
+<br><br><br>
+
+<div class="footer">Copyright  © Glitch. All Rights Reserved.</div></body>
+</html>

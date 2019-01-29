@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="lightbox.css" rel="stylesheet">
+    </head>
+
+
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .logo{
+align:left;
+width:20.8%;
+height:0%;
+margin: 0px 0px 0px 286px;
+}
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            body {background-image: url("bg.jpg");text-align:center;}
+            {box-sizing:border-box}
+
+            body {font-family: Verdana,sans-serif;}
+
+            h1 {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                color: white;
+            }
+
+            /* Caption text */
+            .text {
+                color: white;
+                font-size: 25px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 5px;
+                width: 100%;
+                text-align: center;
+            }
+            p{
+                color: white;
+            }
+            .active {
+                background-color: white;
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 500px) {
+                .text {font-size: 11px}
+            }
+
+            /*Dropdown and nevigator Header and copyright footer*/
+.header ul {
+     list-style-type: none;
+    margin: 0px 200px 0px 290px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: black;
+}
+.header li {
+    float: right;
+	border-right: 2px solid #bbb;
+}
+.header li a {
+   display: block;
+    color: white;
+    text-align: center;
+	font-size:12px;
+	font-weight: bold;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+            .header {
+                border-right:1px solid black;
+                padding: 15px;
+            }
+
+            .header li:hover {
+                background-color: #9a9a92;
+            }
+            .header li a:hover:not(.active) {
+                background-color: #9a9a92;
+            }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .active {
+                background-image: url("bg.jpg");
+            } 
+
+           /* div {
+                border-radius: 1px;
+                background-image: url("bg.jpg");
+                padding: 1px;
+            }*/
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            body {background:#ECF0F1;text-align:center;background-image: url("bg.jpg");}
+            body {font-family: Verdana,sans-serif;}
+
+            .header {
+                border-right:1px solid black;
+                padding: 15px;
+            }
+
+            .main {
+                width: 75%;
+                float: left;
+                padding: 0px 100px 50px 45px;
+                text-align: left;
+                margin-bottom: 80px;
+            }
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .footer{ 
+                position: fixed;     
+                text-align: center;    
+                bottom: 0px; 
+                width: 100%;
+                font-family: Times New Roman;
+                color: red;
+                font size: 12px;
+            }
+            .menu {
+                width: 25%;
+                float: left;
+                padding: 0px 0px 0px 130px;
+                margin-bottom:17px;
+            }
+
+            .menu li a {
+                display: block;
+                padding: 8px 16px;
+                text-align: left;
+                color: white;
+                width: 200px;
+                border-bottom:2px solid white;
+
+            }
+            .menu li a:hover {
+                background-color: #b4b4aa;
+            }
+            h2 {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 25px;
+                padding: 25px .5px .5px .5px;
+                font-weight: bold;
+                color: white;
+                text-align: left;
+                padding: 
+            }
+            div.gallery {
+                margin: 10px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+            }
+
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+
+            div.gallery img {
+               
+                cursor:pointer;
+            }
+
+
+        </style>
+    <body>
+        <div class="logo"><a href="index.html"><img src="logo.png" ></a></div>
+        <form id="men" action="" method="post">
+            <div class="header">
+<ul>
+  <li><a href="contact.html">Contact</a></li>
+	<li><a href="inovative.html">Inovative Products</a></li>
+	<li><a href="kids.html">Kids</a></li>
+	<li><a href="womens.html">Women</a></li>
+	<li><a href="mens.html">Men</a></li>
+	<li><a href="service.html">Service</a></li>
+	<li><a href="mission.html">Mission & Vision</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="index.html">Home</a></li>
+ </ul>
+            </div>
+            <div class="menu">
+                <h2>Boys Items: </h2>
+ <ul>
+  <li><a href="btshirt.html"> T-Shirt</a></li>
+  <li><a href="bpolo.html"> Polo</a></li>
+  <li><a href="bshirt.html"> Shirt</a></li>
+  <li><a href="bhoodies.html"> Hoodies</a></li>
+  <li><a href="boutwears.html"> Outwears</a></li>
+  <li><a  href="bshorts.html"> Shorts</a></li>
+  <li ><a  href="blongpants.html"> Long Pants</a></li>
+  <li ><a  href="bswimwear.html"> Swimwear</a></li>
+    <li ><a  href="bbelt.html"> Belt</a></li>
+  <li ><a  href="bboxer.html"> Boxer</a></li>
+  </ul>
+  <br><br><br><br><br><br><br><br>
+   <h2>Girls Items: </h2>
+ <ul>
+  <li><a href="gtshirt.html"> T-Shirt</a></li>
+  <li><a href="gpolo.html"> Polo</a></li>
+  <li><a href="gshirt.html"> Shirt</a></li>
+  <li><a href="ghoodies.html"> Hoodies</a></li>
+  <li><a href="gsweaters.html"> Sweaters</a></li>
+  <li><a href="goutwears.html"> Outwears</a></li>
+  <li ><a  href="glongpants.html"> Long Pants</a></li>
+  <li ><a  href="gswimwear.html"> Swimwear</a></li>
+    <li ><a  href="gdresses.html"> Dresses</a></li>
+  <li ><a  href="gskirt.html"> Skirt</a></li>
+  <li ><a  href="gtanktops.html"> Tanktops</a></li>
+    <li ><a  href="gshorts.html"> Shorts</a></li>
+  </ul>
+            </div>
+
+            <div id="content">
+                <div class="main">
+                    <h2 align="center" >
+                        <font color ="WHITE">Boys Hoodies</font>
+                        <span class="title-bottom">&nbsp;</span>
+                    </h2>
+
+                    <div class="gallery">
+                        <a  href="kb1hoodies.jpg" data-lightbox="hooodies" >
+                            <img  src="kb1hoodies.jpg"   alt="hoodies" >
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="kb2hoodies.jpg" data-lightbox="hooodies" >
+                            <img src="kb2hoodies.jpg"  alt="hoodies" width="900px" height="900px">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a  href="kb3hoodies.jpg" data-lightbox="hooodies" >
+                            <img src="kb3hoodies.jpg"  height="100">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a  href="kb4hoodies.jpg" data-lightbox="hooodies" >
+                            <img src="kb4hoodies.jpg"  alt="hoodies" width="300" height="100">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a  href="kb5hoodies.jpg" data-lightbox="hooodies" >
+                            <img src="kb5hoodies.jpg" alt="hoodies" width="300" height="100">
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a  href="kb6hoodies.jpg" data-lightbox="hooodies" >
+                            <img src="kb6hoodies.jpg"  alt="hoodies" width="300" height="100">
+                        </a>
+						</div>
+					<div class="gallery">
+		<a data-lightbox="hooodies" href="kb7hoodies.jpg">
+			<img src="kb7hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb8hoodies.jpg">
+			<img src="kb8hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb9hoodies.jpg">
+			<img src="kb9hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb10hoodies.jpg">
+			<img src="kb10hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb11hoodies.jpg">
+			<img src="kb11hoodies.jpg" alt="hoodies" width="300" height="200">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb12hoodies.jpg">
+			<img src="kb12hoodies.jpg" alt="hoodies" width="900px" height="900px">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb13hoodies.jpg">
+			<img src="kb13hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb14hoodies.jpg">
+			<img src="kb14hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb15hoodies.jpg">
+			<img src="kb15hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb16hoodies.jpg">
+			<img src="kb16hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>		
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb17hoodies.jpg">
+			<img src="kb17hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb18hoodies.jpg">
+			<img src="kb18hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb19hoodies.jpg">
+			<img src="kb19hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb20hoodies.jpg">
+			<img src="kb20hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb21hoodies.jpg">
+			<img src="kb21hoodies.jpg" alt="hoodies" width="300" height="200">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb22hoodies.jpg">
+			<img src="kb22hoodies.jpg" alt="hoodies" width="900px" height="900px">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb23hoodies.jpg">
+			<img src="kb23hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a data-lightbox="hooodies" href="kb24hoodies.jpg">
+			<img src="kb24hoodies.jpg" alt="hoodies" width="300" height="100">
+			</a>
+		</div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <br><br><br>
+
+           <script src="lightbox-plus-jquery.min.js"></script>
+           
+
+            <div class="footer">Copyright  © Glitch. All Rights Reserved.</div>
+            </body>
+
+        </html>

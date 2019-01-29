@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<style>
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {background-image: url("bg.jpg");text-align:center;}
+{box-sizing:border-box}
+
+body {font-family: Verdana,sans-serif;}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+p{
+color: white;
+}
+.active {
+  background-color: white;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .text {font-size: 11px}
+}
+
+/*Dropdown and nevigator Header and copyright footer*/
+.header ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.header li {
+    float: right;
+	border-right:1px solid black;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+   background-image: url("bg.jpg");
+} 
+ 
+div {
+    border-radius: 1px;
+   background-image: url("bg.jpg");
+    padding: 1px;
+}
+div.dropdown-content{
+	 border-radius: 1px;
+   background-image: url("bg.jpg");
+    padding: 1px;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {background:#ECF0F1;text-align:center;background-image: url("bg.jpg");}
+body {font-family: Verdana,sans-serif;}
+
+.header {
+    border-right:1px solid black;
+    padding: 15px;
+}
+
+.header li:hover {
+    background-color: red;
+}
+.header li a:hover:not(.active) {
+    background-color: red;
+}
+.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 7px;
+    background-color :#a9a9a4;
+    color: #dbbcd9;
+    box-shadow: #dbbcd9;
+}
+.menu li:hover {
+    background-color: #dbbcd9;
+}
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+	   font-family: Times New Roman;
+	   color: white;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 60%;
+}
+
+</style>
+	</head>
+<body>
+<form id="women" action="" method="post">
+<div class="header">
+<ul>
+  <li><a href="contact.html">Contact</a></li>
+	<li><a href="service.html">Service</a></li>
+	<li><a href="mission.html">Mission & Vision</a></li>
+  <li><div class="dropdown">
+  <a href="">Products</a>
+  <div class="dropdown-content">
+    <a href="mens.html">Men</a>
+    <a href="womens.html">Women</a>
+    <a href="kids.html">Kids</a>
+  </div>
+</div>
+</li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="index.html">Home</a></li>
+ </ul>
+ </div>
+ <div class="menu">
+ <ul>
+  <li><a href="wtshirt.html">T-Shirt</a></li>
+  <li><a href="wpolo.html">Polo</a></li>
+  <li><a href="wtanktops.html">Tank Tops</a></li>
+  <li><a href="whoodies.html">Hoodies</a></li>
+  <li><a href="wsweaters.html">Sweaters</a></li>
+  <li><a href="wclassicshirts.html">Classic Shirts</a></li>
+  <li><a href="wcardigansweaters.html">Cardigan Sweaters</a></li>
+  <li><a href="woutwears.html">Outwears</a></li>
+    <li><a href="wskirts.html">Skirts</a></li>
+  <li><a  href="wshorts.html">Shorts</a></li>
+  <li ><a  href="wdresses.html">Dresses</a></li>
+  <li ><a  href="wpyjama.html">Pyjama</a></li>
+  <li ><a  href="wpants">Pants</a></li>
+  <li ><a  href="wsweatpants">Sweat Pants</a></li>
+  <li ><a  href="wyogaclassic.html">Yoga Classic</a></li>
+  </ul>
+  </div>
+ <div id="content">
+	<div class="post">
+		<h2 align="center" >
+		 <font color ="WHITE">out Wears</font>
+		 <span class="title-bottom">&nbsp;</span>
+		 </h2>
+		 </div>
+
+<div class="gallery">
+		<a target="_blank" href="wsweaters1.jpg">
+			<img src="wsweaters1.jpg" alt="tshirt" width="300" height="200">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters2.jpg">
+			<img src="wsweaters2.jpg" alt="tshirt" width="900px" height="900px">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters3.jpg">
+			<img src="wsweaters3.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters4.jpg">
+			<img src="wsweaters4.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters5.jpg">
+			<img src="wsweaters5.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters6.jpg">
+			<img src="wsweaters6.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>		
+<div class="gallery">
+		<a target="_blank" href="wsweaters7.jpg">
+			<img src="wsweaters7.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters8.jpg">
+			<img src="wsweaters8.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters9.jpg">
+			<img src="wsweaters9.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>	
+<div class="gallery">
+		<a target="_blank" href="wsweaters10.jpg">
+			<img src="wsweaters10.jpg" alt="tshirt" width="300" height="100">
+			</a>
+		</div>		
+
+
+		
+			</div>
+		 
+		 
+ 
+
+<br><br><br>
+
+<div class="footer">Copyright  © ProjeKt Dark. All Rights Reserved.</div>
+</body>
+</html>
+</style>
+</html>
+</head>
